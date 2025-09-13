@@ -22,6 +22,7 @@ export default function App() {
             name: "Mordor",
             reviews: [
               { id: 1, user: "Gollam", text: "Nagyon meleg, nem ajánlanám", rating: 1 },
+              { id: 1, user: "Frodó", text: "Nagyon meleg2, nem ajánlanám", rating: 1 },
             ],
           },
         ];
