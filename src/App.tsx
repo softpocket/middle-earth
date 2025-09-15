@@ -12,17 +12,55 @@ export default function App() {
       : [
           {
             id: 1,
-            name: "Hobbitfala",
+            name: "Hobbitfalva",
             reviews: [
               { id: 1, user: "Samu", text: "Békés és zöld! 5 csillag!", rating: 5 },
+              { id: 1, user: "Pippin", text: "Sok sör, sok pte. Legjobb hely!", rating: 5 },
+              { id: 1, user: "Frodó", text: "Rossz volt itt hagyni!", rating: 4 },
+              { id: 1, user: "Gandalf", text: "Jó hely tüzijátékozásra!", rating: 5 },
+              { id: 1, user: "Bilbó", text: "Egy csodás otthon volt számomra.", rating: 5 },
             ],
           },
           {
             id: 2,
             name: "Mordor",
             reviews: [
-              { id: 1, user: "Gollam", text: "Nagyon meleg, nem ajánlanám", rating: 1 },
-              { id: 1, user: "Frodó", text: "Nagyon meleg2, nem ajánlanám", rating: 1 },
+              { id: 1, user: "Gollam", text: "Nagyon meleg, nem ajánlanám.", rating: 2 },
+              { id: 1, user: "Frodó", text: "Fúh, de nagy hőség!", rating: 1 },
+              { id: 1, user: "Samu", text: "Nem jönnék vissza, meleg van.", rating: 2 },
+              { id: 1, user: "Szauron", text: "Jó hely..", rating: 4 },
+            ],
+          },
+          {
+            id: 3,
+            name: "Völgyzugoly",
+            reviews: [
+              { id: 1, user: "Bilbó", text: "Béke nyugalom és biztonság.", rating: 5 },
+              { id: 1, user: "Pippin", text: "Több buli kellene.", rating: 3 },
+              { id: 1, user: "Frodó", text: "Életmentő hely!", rating: 5 },
+              { id: 1, user: "Samu", text: "Csodás!", rating: 5 },
+              { id: 1, user: "Anonymus Ork", text: "Nem tudtam bejutni.", rating: 1 },
+            ],
+          },
+          {
+            id: 4,
+            name: "Lothlórien",
+            reviews: [
+              { id: 1, user: "Pippin", text: "Nincs kocsma.", rating: 3 },
+              { id: 1, user: "Frodó", text: "Fényt kaptam!", rating: 5 },
+              { id: 1, user: "Samu", text: "Csodás hely!", rating: 5 },
+              { id: 1, user: "Legolas", text: "Legszebb erdő!", rating: 5 },
+            ],
+          },
+          {
+            id: 5,
+            name: "Sírbuckák",
+            reviews: [
+              { id: 1, user: "Pippin", text: "Nagyon rossz volt.", rating: 1 },
+              { id: 1, user: "Frodó", text: "Jaj, borzalmas hely.", rating: 1 },
+              { id: 1, user: "Samu", text: "A környékére sem szeretnék menni!", rating: 1 },
+              { id: 1, user: "Bombadil Toma", text: "Egy dal kell, és minden probléma elszáll!", rating: 3 },
+              { id: 1, user: "Bombadil Toma", text: "Egy dal kell, és minden probléma elszáll!", rating: 3.5 },
             ],
           },
         ];
