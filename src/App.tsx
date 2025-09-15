@@ -15,7 +15,7 @@ export default function App() {
             name: "Hobbitfalva",
             reviews: [
               { id: 1, user: "Samu", text: "Békés és zöld! 5 csillag!", rating: 5 },
-              { id: 1, user: "Pippin", text: "Sok sör, sok pte. Legjobb hely!", rating: 5 },
+              { id: 1, user: "Pippin", text: "Sok sör, sok pite. Legjobb hely!", rating: 5 },
               { id: 1, user: "Frodó", text: "Rossz volt itt hagyni!", rating: 4 },
               { id: 1, user: "Gandalf", text: "Jó hely tüzijátékozásra!", rating: 5 },
               { id: 1, user: "Bilbó", text: "Egy csodás otthon volt számomra.", rating: 5 },
@@ -60,7 +60,6 @@ export default function App() {
               { id: 1, user: "Frodó", text: "Jaj, borzalmas hely.", rating: 1 },
               { id: 1, user: "Samu", text: "A környékére sem szeretnék menni!", rating: 1 },
               { id: 1, user: "Bombadil Toma", text: "Egy dal kell, és minden probléma elszáll!", rating: 3 },
-              { id: 1, user: "Bombadil Toma", text: "Egy dal kell, és minden probléma elszáll!", rating: 3.5 },
             ],
           },
         ];
