@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 type Review = { id: number; user: string; text: string; rating: number };
-type Place = { id: number; name: string; reviews: Review[] };
+type Place = { id: number; name: string; description: string; reviews: Review[] };
 
 export default function App() {
   const [places, setPlaces] = useState<Place[]>(() => {
@@ -13,6 +13,7 @@ export default function App() {
           {
             id: 1,
             name: "Hobbitfalva",
+            description: "A legbékésebb hely a Megyében!",
             reviews: [
               { id: 1, user: "Samu", text: "Békés és zöld! 5 csillag!", rating: 5 },
               { id: 1, user: "Pippin", text: "Sok sör, sok pite. Legjobb hely!", rating: 5 },
@@ -24,6 +25,7 @@ export default function App() {
           {
             id: 2,
             name: "Mordor",
+            description: "A TripAdvisor közössége felszeretné hívni a figyelmet, hogy a terület megközelítése életveszélyes. A TripAdvisor közössége nem ajánlja a látogatást ugyanis súlyos testi sérülés vagy akár halál következhet be.",
             reviews: [
               { id: 1, user: "Gollam", text: "Nagyon meleg, nem ajánlanám.", rating: 2 },
               { id: 1, user: "Frodó", text: "Fúh, de nagy hőség!", rating: 1 },
@@ -34,6 +36,7 @@ export default function App() {
           {
             id: 3,
             name: "Völgyzugoly",
+            description: "Jó hely!",
             reviews: [
               { id: 1, user: "Bilbó", text: "Béke nyugalom és biztonság.", rating: 5 },
               { id: 1, user: "Pippin", text: "Több buli kellene.", rating: 3 },
@@ -45,6 +48,7 @@ export default function App() {
           {
             id: 4,
             name: "Lothlórien",
+            description: "Teszt!",
             reviews: [
               { id: 1, user: "Pippin", text: "Nincs kocsma.", rating: 3 },
               { id: 1, user: "Frodó", text: "Fényt kaptam!", rating: 5 },
@@ -55,6 +59,7 @@ export default function App() {
           {
             id: 5,
             name: "Sírbuckák",
+            description: "Fkozott figyelemmel látogassa ezt a helyet!",
             reviews: [
               { id: 1, user: "Pippin", text: "Nagyon rossz volt.", rating: 1 },
               { id: 1, user: "Frodó", text: "Jaj, borzalmas hely.", rating: 1 },
