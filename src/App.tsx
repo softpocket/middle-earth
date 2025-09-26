@@ -133,6 +133,7 @@ export default function App() {
           ← Vissza
         </button>
         <h1>{selectedPlace.name}</h1>
+        <p className="desc">{selectedPlace.description}</p>
         <div className="reviews">
           {selectedPlace.reviews.map((r) => (
             <div key={r.id} className="review">
