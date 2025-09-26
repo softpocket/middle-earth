@@ -87,7 +87,7 @@ export default function App() {
   function addPlace() {
     const name = prompt("Place name?");
     if (!name) return;
-    setPlaces([...places, { id: Date.now(), name, description, reviews: [] }]);
+    setPlaces([...places, { id: Date.now(), name, description: null, reviews: [] }]);
   }
 
   function removePlace(id: number) {
