@@ -136,3 +136,8 @@ button:hover {
   bottom: 20px;
   right: 20px;
 }
+.desc {
+  font-style: italic;
+  color: #555;
+  margin: 8px 0;
+}
