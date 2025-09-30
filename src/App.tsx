@@ -36,7 +36,7 @@ export default function App() {
           {
             id: 3,
             name: "Völgyzugoly",
-            description: "Jó hely!",
+            description: "A Tengertől Keletre az Utolsó Meghitt Otthon",
             reviews: [
               { id: 1, user: "Bilbó", text: "Béke nyugalom és biztonság.", rating: 5 },
               { id: 1, user: "Pippin", text: "Több buli kellene.", rating: 3 },
@@ -48,7 +48,7 @@ export default function App() {
           {
             id: 4,
             name: "Lothlórien",
-            description: "Teszt!",
+            description: "Az Aranyerdő ahol a béke határtalan.",
             reviews: [
               { id: 1, user: "Pippin", text: "Nincs kocsma.", rating: 3 },
               { id: 1, user: "Frodó", text: "Fényt kaptam!", rating: 5 },
